@@ -8,7 +8,7 @@
 
 PUC Minas Virtual - Pontifícia Universidade Católica de Minas Gerais
 
-Dar nome e história para as peossas em situação de rua atráves de um banco de dados atrelado ao um site, onde é possível conhecer quem são essas pessoas que muitas vezes são invisíveis aos olhos da sociedade. 
+Dar nome e história para as peossas em situação de rua atráves de um banco de dados atrelado a um site, onde é possível conhecer quem são essas pessoas que muitas vezes são invisíveis aos olhos da sociedade. 
 
 ## Integrantes
 
