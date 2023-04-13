@@ -20,7 +20,7 @@ Dar nome e história para as peossas em situação de rua atráves de um banco d
 
 ## Orientador
 
-* Nome completo do professor 1 - Prof. Hugo Bastos de Paula 
+Prof. Hugo Bastos de Paula 
 
 # Planejamento
 
