@@ -1,4 +1,4 @@
-# Título do Projeto
+# Social Updates
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,9 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+PUC Minas Virtual - Pontifícia Universidade Católica de Minas Gerais
+
+Dar nome e história para as peossas em situação de rua atráves de um banco de dados atrelado ao um site onde é possível conhecer quem são essas pessoas que muitas vezes são invisíveis aos olhos da sociedade. 
 
 ## Integrantes
 
