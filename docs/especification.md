@@ -1,24 +1,15 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+01. Luciana, tem 34 anos é casada, e é formada em serviço social pela Universidade Federal de Ouro Preto (UFOP), reside na cidade de Mariana (MG). Sempre muito proativa para ajudar as pessoas, desde muito nova se voluntariava em ONG, tal aproximação refletiu no seu curso de graduação, Luciana começou a ter uma visão mais profissional a respeito dos problemas socias, fundou sua ONG com o objetivo de ajudar dos moradores de rua, contudo, ela enfrenta dificuldades para encontrar um banco de dados com informações pessoas a respeito dessas pessoas. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+02. Juliana, tem 36 anos é solteira, médica, desde muita nova gosta de cuidar das pessoas, em seu tempo livre gosta de fazer atividade filantrópicas. Justamente por ser médica, se interessou pelas dificuldades que os moradores de rua enfrentam, uma vez que grande parte dessas pessoas vivem em situação insalubre, o que pode arretar sérios riscos a saúde delas. Porém, Juliana tem muita dificuldade na organização para cadastrar voluntários, aliado ao perfil dos candidatos juntamente com informações importantes dos moradores de rua; Ser de muito ajuda para Juliana por ser médica, um diagnóstico preciso, já que é importante ter informações seguras. Além disso, mesmo indo a campo e conseguindo informações importantes dessas pessoas, ela sente falta de uma plataforma para inserir e compartilhar esses dados com segurança. 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+03. Bruno, é casado tem 32 anos, formado em psicologia, trabalha na prefeitura de Itabira (MG), responsável Pelo CAT da cidade. Com o objetivo de melhorar de maneira mais eficiente a situação dos moradores de rua, Bruno, sente falta de um banco de dados a respeito do perfil dos moradores de rua da cidade, juntamente com as ONG’s que atuam nesse problema social, ele gostaria de entender quais ONG’s estão cadastradas, quais segmentos cada uma atua, quantidade de doações recebidas, para que assim ele consiga um melhor controle e transparência. 
+
+04. Dalton, é casado tem 45 anos, é um grande empresário que atua em de vários setores, dedica parte de seu lucro para ONG’s, sendo uma delas uma clinica de reabilitação que ele mesmo fundou. Dalton ao longo de seu trabalho foi notando que grande parte dos usuários de drogas vivem em situação de rua, e muitos tem o desejo de se livrar do vício. A adversidade que Dalton enfrenta é acerca das informações pessoais desses usuários, desde nome, qual vício, e possíveis traumas, informações que poderiam auxiliar muito no tratamento desses usuários. 
+
 
 ## Histórias de Usuários
 
@@ -26,17 +17,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO: Luciana |QUERO/PRECISO: banco de dados com informações/perfil das pessoas |MOTIVO/VALOR: Ter um melhor entendimento, eficiência e planejamento para alcançar resultados melhores. |
+|EU COMO: Juliana |QUERO/PRECISO: Cadastrar voluntários com Informações importantes e seguras para um diagnóstico preciso |MOTIVO/VALOR: Utilizar da profissão de médica, logo cuidar da saúde para ajudar as pessoas em situação de rua |
+|EU COMO: Bruno |QUERO/PRECISO: Perfil dos moradores de rua da cidade e também das ONG’s que atuam na problemática |MOTIVO/VALOR: Trabalho na prefeitura, logo, sou responsável por fiscalizar e distribuir a renda do município para as ONG’ |
+|EU COMO: Dalton |QUERO/PRECISO: Perfil dos moradores de rua, nome, história e vício |MOTIVO/VALOR: Reabilitação dos usuários de drogas, entendo que esse é o primeiro passe para enfrentar a problemática social dos moradores de rua |
 
 ## Requisitos
 
@@ -46,32 +30,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|RF-001| Disponibilizar o cadastro dos moradores de rua | ALTA |ONGS / Voluntários / Assistente social |
+|RF-002| Disponibilizar o cadastro de voluntários | ALTA |ONGS / Voluntários / Assistente social |
+|RF-003| Disponibilizar cadastro das ONGs | ALTA | ONGs / Assistente social |
+|RF-004| Elaborar um perfil dos moradores de rua  | ALTA | ONGS / Assistente social |
+|RF-005| Disponibilizar informações de cada morador de rua cadastrado | ALTA | Software / ONGS / Assistente social |
+|RF-006| Disponibilizar na página os depoimentos dos moradores de rua | ALTA | Software / ONGS / Assistente social |
+|RF-007| Disponibilizar login para os usuários | ALTA | Software / ONGS / Assistente social |
+|RF-008| Relatório do valor arrecado das doações | ALTA | ONGS / Assistente social |
+|RF-009| Relatório do número de voluntários | MÉDIA | ONGS |
+|RF-010| Relatório de moradores de rua por localidade | ALTA | ONGS / Assistente social |
+|RF-011| Relatório de moradores de rua com problemas de saúde | ALTA | ONGS / Assistente social |
+|RF-012| Relatório de moradores de rua usuários de drogas | ALTA | ONGS / Assistente social |
+|RF-013| Relatório de moradores de rua mulheres gravidas e com criança | ALTA | ONGS / Assistente social |
+|RF-014| Relatório de moradores de rua criança | ALTA | ONGS / Assistente social |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Interface responsiva e adaptável seja Browser, Smartphone ou Tablet | ALTA | 
+|RNF-002| Sistema responsivo para rodar em um dispositivo móvel | ALTA | 
+|RNF-003| Disponibilidade de adaptação da interface | MÉDIA | 
+|RNF-004| Disponibilidade de compartilhamento do site através das mídias sociais | MÉDIA | 
+|RNF-005| Cada morador de rua poderá ser cadastrado somente uma vez | MÉDIA | 
 
 ## Restrições
 
@@ -79,12 +61,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| A abrangência do projeto limita-se a Minas Gerais |
+|02| FrontEnd do proejto desenvolvido em HTML e JavaScript |
+|03| O projeto deverá ser entregue até o final do semestre |
